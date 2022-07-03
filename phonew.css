@@ -1,0 +1,31 @@
+@media only screen and (max-width: 800px) {
+/*NAVBAR SECTION*/
+
+
+/*HOME SECTION*/
+#home{
+    padding: 3px 56px;
+    height: 378px;
+}
+#home::before{
+    height: 480px;
+}
+/*SERVICES SECTION*/
+#services{
+    flex-direction: column;
+}
+/*CLIENTS SECTION*/
+#clients{
+    flex-direction: column;
+}
+/*CONTACT SECTION*/
+#contact{
+    overflow: hidden;
+}
+/*NETWORKS SECTION*/
+/*LINKS SECTION*/
+#services .h-primary{
+    font-size: 26px;
+}
+
+}
